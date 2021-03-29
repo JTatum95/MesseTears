@@ -23,6 +23,12 @@ body, html {
 /*  backdrop-filter: blur(2px);*/
 /*}*/
 
+hr {
+  margin: 0 4rem 0 4rem !important;
+  border: 0;
+  border-top: 2px solid #C9CEA4 !important;
+}
+
 .simply-section {
   backdrop-filter: blur(2px);
 }
