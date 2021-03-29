@@ -1,12 +1,36 @@
 body, html {
-  background: url(../img/Ussmilingbench.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  /*background: url(../img/Ussmilingbench.jpg) no-repeat center center fixed;*/
+  background-color: #BDB2A7 !important;
+  /*background-color: #C9CEA4 !important;*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
   color: white !important;
+  backdrop-filter: blur(2px);
 }
+
+/*.active {*/
+/*  background: #C3797F !important;*/
+/*  color: #C9CEA4 !important;*/
+/*}*/
 
 .registry-header {
   display: none !important;
 }
+
+/*.navbar {*/
+/*  backdrop-filter: blur(2px);*/
+/*}*/
+
+.simply-section {
+  backdrop-filter: blur(2px);
+}
+
+.jumbotron {
+  background: none !important;
+}
+
+/*.centerpiece {*/
+/*  background: rgba(0,0,0,.2) !important;*/
+/*}*/
