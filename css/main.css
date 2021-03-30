@@ -1,6 +1,15 @@
+:root {
+  --white: #FFFEFE;
+  --orange: #C18C5D;
+  --violet: #7E678E;
+  --silver: #BDB2A7;
+  --rose: #C3797F;
+  --sage: #C9CEA4;
+}
+
 body, html {
   /*background: url(../img/Ussmilingbench.jpg) no-repeat center center fixed;*/
-  background-color: #BDB2A7 !important;
+  background-color: silver !important;
   /*background-color: #C9CEA4 !important;*/
   /*-webkit-background-size: cover;*/
   /*-moz-background-size: cover;*/
@@ -8,12 +17,13 @@ body, html {
   /*background-size: cover;*/
   color: white !important;
   backdrop-filter: blur(2px);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
 }
 
-/*.active {*/
-/*  background: #C3797F !important;*/
-/*  color: #C9CEA4 !important;*/
-/*}*/
+h1 {
+  font-family: Lobster, cursive !important;
+}
 
 .registry-header {
   display: none !important;
@@ -22,6 +32,14 @@ body, html {
 /*.navbar {*/
 /*  backdrop-filter: blur(2px);*/
 /*}*/
+
+.page-section {
+  padding: 8rem 0;
+}
+
+.alt-bg {
+  background-color: #C9CEA4;
+}
 
 hr {
   margin: 0 4rem 0 4rem !important;
@@ -37,6 +55,14 @@ hr {
   background: none !important;
 }
 
-/*.centerpiece {*/
-/*  background: rgba(0,0,0,.2) !important;*/
-/*}*/
+.button {
+  border-radius: 15%;
+  background: #C9CEA4 !important;
+  backdrop-filter: blur(2px);
+  border: none !important;
+  color: white !important;
+}
+
+.button:hover { background: #B0B87A !important; }
+.button:focus { box-shadow: 0 0 0 0.2rem #A1A960 !important; }
+.button:active { }

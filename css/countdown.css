@@ -1,6 +1,7 @@
 .simply-countdown {
   overflow: hidden;
   display: table;
+  padding: 16px 0 16px 0;
 }
 
 .simply-countdown > .simply-section {
