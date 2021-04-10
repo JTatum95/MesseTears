@@ -2,6 +2,9 @@
   overflow: hidden;
   display: table;
   padding: 16px 0 16px 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+
 }
 
 .simply-countdown > .simply-section {
@@ -33,3 +36,7 @@
 }
 
 .countdown { width: 100%; }
+
+.simply-section {
+  backdrop-filter: blur(2px);
+}
