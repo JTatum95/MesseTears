@@ -7,26 +7,25 @@
   --sage: #C9CEA4;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+/**,*/
+/**::before,*/
+/**::after {*/
+/*  box-sizing: border-box;*/
+/*}*/
 
 body, html {
-  background-color: #BDB2A7 !important;
   color: white !important;
-  backdrop-filter: blur(2px);
   font-family: 'Raleway', sans-serif !important;
 }
 
-h1 { font-family: Lobster, cursive !important; }
-p { font-family: 'Raleway', sans-serif; font-weight: 200; }
-.minimal { font-family: 'Raleway', sans-serif; font-weight: 200; }
+h1 { font-family: "Lobster", "Brush Script MT", sans-serif !important; }
+p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200; }
+.minimal { font-family: 'Raleway', serif; font-weight: 200; }
 
 #mainNav {
-  backdrop-filter: blur(2px);
-  transition: background-color 0.2s ease;
+  backdrop-filter: blur(1px);
+  width: 100%;
+  /*transition: background-color 0.2s ease;*/
   padding: 1rem 1rem 1rem 1rem;
 }
 
@@ -35,25 +34,42 @@ p { font-family: 'Raleway', sans-serif; font-weight: 200; }
 #names {
   font-size: 3rem;
 }
-.registry-header {
-  display: none !important;
-}
 
 #main {
   padding-top: 75px;
 }
 
-#about {
+#about, #registry { background-color: #C3797F; }
+#event, #rsvp { background: #7E678E; }
+#what, #todo { background-color: #c9cba3;}
 
+#photo1 {
+  height: 800px;
+  background-image: url("../img/IMG_3594.jpg");
 }
-
-#event {
-  background: #7E678E;
+#photo2 {
+  height: 600px;
+  background-image: url("../img/UsbushlaughingHD.jpg");
 }
-
-.centerpiece {
-  /*background: rgba(0,0,0,0.05);*/
-  backdrop-filter: blur(2px);
+#photo3 {
+  height: 600px;
+  background-image: url("../img/IMG_3495.jpg");
+}
+#photo4 {
+  height: 600px;
+  background-image: url("../img/UsArchwayHD.jpg");
+}
+#photo5 {
+  height: 600px;
+  background-image: url("../img/IMG_3515.jpg");
+}
+.photo {
+  height: 100%;
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 hr.divider {
@@ -64,24 +80,8 @@ hr.divider {
 
 
 
-#photo1 {
-  background: url(../img/Ussmilingbench.jpg) no-repeat center center fixed;
-  width: 100%;
-}
-
-.photo {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .page-section {
   padding: 4rem 0;
-}
-
-.alt-bg {
-  background-color: #C3797F;
 }
 
 .jumbotron {
@@ -95,6 +95,7 @@ hr.divider {
   border: none !important;
   color: white !important;
 }
+
 
 .button:hover { background: #B0B87A !important; }
 .button:focus { box-shadow: 0 0 0 0.2rem #A1A960 !important; }

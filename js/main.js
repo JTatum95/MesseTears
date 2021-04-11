@@ -35,3 +35,20 @@ var navbarCollapse = function() {
 navbarCollapse();
 // Collapse the navbar when page is scrolled
 $(window).scroll(navbarCollapse);
+
+
+$(document).ready(function() {
+
+    $(window).scroll(function () {
+        //if you hard code, then use console
+        //.log to determine when you want the
+        //nav bar to stick.
+        console.log($(window).scrollTop())
+        if ($(window).scrollTop() > 280) {
+            $('#mainNav').addClass('navbar-fixed');
+        }
+        if ($(window).scrollTop() < 281) {
+            $('#mainNav').removeClass('navbar-fixed');
+        }
+    });
+});
