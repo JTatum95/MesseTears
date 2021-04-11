@@ -39,11 +39,9 @@ $(window).scroll(navbarCollapse);
 
 $(document).ready(function() {
 
+    // $('.zola-logo').hide();
+
     $(window).scroll(function () {
-        //if you hard code, then use console
-        //.log to determine when you want the
-        //nav bar to stick.
-        console.log($(window).scrollTop())
         if ($(window).scrollTop() > 280) {
             $('#mainNav').addClass('navbar-fixed');
         }

@@ -20,7 +20,7 @@ body, html {
 
 h1 { font-family: "Lobster", "Brush Script MT", sans-serif !important; }
 p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200; }
-.minimal { font-family: 'Raleway', serif; font-weight: 200; }
+.minimal { font-family: 'Raleway', serif; font-weight: 200; font-size: .8rem; }
 
 #mainNav {
   backdrop-filter: blur(1px);
@@ -82,6 +82,14 @@ hr.divider {
   border-color: #C18C5D;
 }
 
+.form-check, .labels {
+  padding: 0.5rem 0 0.5rem 0;
+  margin: 0;
+}
+
+.form-check {
+  padding-left: 2.25rem;
+}
 
 
 .page-section {
