@@ -63,6 +63,10 @@ p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200;
   height: 600px;
   background-image: url("../img/IMG_3515.jpg");
 }
+#photo6 {
+  height: 600px;
+  background-image: url("../img/UsBushHD.jpg");
+}
 .photo {
   height: 100%;
   position: relative;

@@ -20,7 +20,7 @@ $('.js-scroll-trigger').click(function() {
 // Activate scrollspy to add active class to navbar items on scroll
 $('body').scrollspy({
     target: '#mainNav',
-    offset: 75
+    offset: 200
 });
 
 // Collapse Navbar
