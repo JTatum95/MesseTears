@@ -25,12 +25,16 @@ p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200;
 #mainNav {
   backdrop-filter: blur(1px);
   width: 100%;
-  /*transition: background-color 0.2s ease;*/
+  transition: background-color 0.3s ease;
   padding: 1rem 1rem 1rem 1rem;
 }
 
 .navbar .navbar-brand { font-weight: 400;}
 
+.navbar-scrolled {
+  transition: background-color 0.3s ease;
+  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0));
+}
 #names {
   font-size: 3rem;
 }
@@ -91,7 +95,6 @@ hr.divider {
   padding-left: 2.25rem;
 }
 
-
 .page-section {
   padding: 4rem 0;
 }
@@ -107,7 +110,6 @@ hr.divider {
   border: none !important;
   color: white !important;
 }
-
 
 .button:hover { background: #B0B87A !important; }
 .button:focus { box-shadow: 0 0 0 0.2rem #A1A960 !important; }

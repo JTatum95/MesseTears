@@ -35,16 +35,3 @@ var navbarCollapse = function() {
 navbarCollapse();
 // Collapse the navbar when page is scrolled
 $(window).scroll(navbarCollapse);
-
-
-// $(document).ready(function() {
-//
-//     $(window).scroll(function () {
-//         if ($(window).scrollTop() > 280) {
-//             $('#mainNav').addClass('navbar-fixed');
-//         }
-//         if ($(window).scrollTop() < 281) {
-//             $('#mainNav').removeClass('navbar-fixed');
-//         }
-//     });
-// });
