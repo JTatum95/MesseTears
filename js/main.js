@@ -37,16 +37,14 @@ navbarCollapse();
 $(window).scroll(navbarCollapse);
 
 
-$(document).ready(function() {
-
-    // $('.zola-logo').hide();
-
-    $(window).scroll(function () {
-        if ($(window).scrollTop() > 280) {
-            $('#mainNav').addClass('navbar-fixed');
-        }
-        if ($(window).scrollTop() < 281) {
-            $('#mainNav').removeClass('navbar-fixed');
-        }
-    });
-});
+// $(document).ready(function() {
+//
+//     $(window).scroll(function () {
+//         if ($(window).scrollTop() > 280) {
+//             $('#mainNav').addClass('navbar-fixed');
+//         }
+//         if ($(window).scrollTop() < 281) {
+//             $('#mainNav').removeClass('navbar-fixed');
+//         }
+//     });
+// });
