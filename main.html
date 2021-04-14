@@ -83,7 +83,7 @@
         <p class="lead">We are getting married on</p>
         <p class="lead">September 4th, 2021</p>
         <div class="countdown simply-countdown"></div>
-        <a class="btn button" href="#rsvp">RSVP</a>
+        <a class="btn button js-scroll-trigger" href="#rsvp">RSVP</a>
       </div>
     </div>
   </div>
@@ -170,31 +170,33 @@
       </div>
     </div>
 
-    <form>
+<!--    <form id="rsvp_form" onsubmit="return validate()" method="post">-->
+    <form id="rsvp_form">
       <div class="row">
         <div class="col-6">
           <label for="fname" class="labels">First Name</label>
-          <input type="text" class="form-control" placeholder="First name" id="fname" required>
+          <input type="text" class="form-control" placeholder="First name" id="fname" name="first name" required>
         </div>
         <div class="col-6">
           <label for="lname" class="labels">Last Name</label>
-          <input type="text" class="form-control" placeholder="Last name" id="lname" required>
+          <input type="text" class="form-control" placeholder="Last name" name="last name" id="lname" required>
         </div>
       </div>
       <div class="row">
         <div class="col-6">
           <label for="guests" class="labels">Number of Guests</label>
-          <input type="number" class="form-control" id="guests" value="1" min="1" max="10">
+          <input type="number" class="form-control" id="guests" value="1" name="guests" min="1" max="10">
         </div>
       </div>
       <div class="row">
         <div class="col-6 form-check">
-            <input type="checkbox" class="form-check-input" id="check" required oninvalid="this.setCustomValidity('RSVP is only needed for in person attendance')">
+            <input type="checkbox" class="form-check-input" id="check">
             <label class="form-check-label" for="check" >I will be attending in person.</label>
+            <p class="minimal">*RSVP is only needed for in person attendance</p>
         </div>
       </div>
 
-      <button type="submit" class="btn button">Submit</button>
+      <button type="submit" class="btn button" id="rsvp_submit">Submit</button>
     </form>
 
   </div>
@@ -222,19 +224,18 @@
     year: 2021,
     month: 9,
     day: 4,
+    hours: 13,
     enableUTC: false,
     inline: true
   });
-
-  // $('.simply-section').addClass("circle-rounded");
-
-</script>
+  </script>
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <script src="js/main.js"></script>
+<script src="js/submit.js"></script>
 
-</body>
+  </body>
 </html>
