@@ -29,7 +29,7 @@
 <body id="page-top" data-spy="scroll" data-target="#mainNav">
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top position-fixed" id="mainNav">
-  <a class="navbar-brand js-scroll-trigger" href="#main">Messe Tears</a>
+  <a class="navbar-brand js-scroll-trigger" href="#main">Micaela & Jesse</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -66,7 +66,7 @@
 <div class="photo" id="photo1">
   <section class="text-center page-section" id="main">
     <div class="centerpiece align-bottom">
-      <h1 id="names">Jesse & Micaela</h1>
+      <h1 id="names">Micaela & Jesse</h1>
     </div>
   </section>
 </div>
@@ -99,13 +99,14 @@
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
         <h2 class="mt-0">Ceremony</h2>
-        <p>We are going to be married!</p>
+        <p>We are going to be married at our home church, Church of the Resurrection. We will have a small in person
+        ceremony as well as a virtual option as needed.</p>
       </div>
 
       <div class="col-lg-8 text-center">
         <h2 class="mt-0">Reception</h2>
-        <p>We are going to have a time to drink coffee and snack</p>
-        <p>After this, we will play board games into the night.</p>
+        <p>After the ceremony, we will have a reception time to chat and snack. We will have light refreshments as well as
+          coffee and tea. Following the reception there will be more time to stay if you would wish and we will play board games.</p>
       </div>
     </div>
   </div>
@@ -121,7 +122,8 @@
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
         <h2 class="mt-0">Full Anglican Wedding Service</h2>
-        <p class="mb-4">We are going to be married!</p>
+        <p class="mb-4">We will be participating in a full Anglican Wedding Service. This will last roughly an hour and half
+        and will include a brief homily as well a time for Eucharist. The service will be livestreamed to accommodate our remote guests!</p>
       </div>
     </div>
   </div>
@@ -170,7 +172,13 @@
       </div>
     </div>
 
-<!--    <form id="rsvp_form" onsubmit="return validate()" method="post">-->
+    <div id="formsuccess" class="text-center response">
+      <p>RSVP submitted successfully!</p>
+    </div>
+    <div id="formfail" class="text-center response">
+      <p>Error submitting. Please try again later.</p>
+    </div>
+
     <form id="rsvp_form">
       <div class="row">
         <div class="col-6">
@@ -186,6 +194,10 @@
         <div class="col-6">
           <label for="guests" class="labels">Number of Guests</label>
           <input type="number" class="form-control" id="guests" value="1" name="guests" min="1" max="10">
+        </div>
+        <div class="col-6">
+          <label for="email" class="labels">Email Address</label>
+          <input type="email" class="form-control" placeholder="Email" name="email" id="email" required>
         </div>
       </div>
       <div class="row">
@@ -214,6 +226,36 @@
         <h2 class="mt-0"></h2>
         <p class="mb-4">There will be some time to spend in the Wheaton area between the ceremony and reception,
           as well as potentially for a few of the days bordering.</p>
+        <div class="text-left">
+          <p>Coffee Shops</p>
+          <ul>
+            <li>Five & Hoek</li>
+            <li>BrewPoint Coffee</li>
+          </ul>
+
+          <p>Restaurants</p>
+          <ul>
+            <li>Shane's Deli</li>
+            <li>Katy's Dumplings</li>
+            <li>Hokkai Sushi</li>
+            <li>Mitsuwa Marketplace</li>
+          </ul>
+
+          <p>Nature</p>
+          <ul>
+            <li>Morton Arboretum</li>
+            <li>Herrick Lake</li>
+            <li>Willowbrook Wildlife Center</li>
+          </ul>
+
+          <p>Art</p>
+          <ul>
+            <li>Art Institute of Chicago</li>
+            <li>Zhou B Art Center</li>
+            <li>The Field Museum of Chicago</li>
+            <li>The Shedd Aquarium</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
