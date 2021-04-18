@@ -7,24 +7,25 @@
   --sage: #C9CEA4;
 }
 
-/**,*/
-/**::before,*/
-/**::after {*/
-/*  box-sizing: border-box;*/
-/*}*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body, html {
   color: white !important;
   font-family: 'Raleway', sans-serif !important;
+  width: 100%;
 }
 
 h1 { font-family: "Lobster", "Brush Script MT", sans-serif !important; }
+h2 { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 400; font-size: 1.5rem; !important; }
 p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200; }
 .minimal { font-family: 'Raleway', serif; font-weight: 200; font-size: .8rem; }
 
 #mainNav {
   backdrop-filter: blur(1px);
-  width: 100%;
   padding: 1rem 1rem 1rem 1rem;
   transition: background 0.3s ease-in-out;
 }
@@ -32,7 +33,7 @@ p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200;
 .navbar .navbar-brand { font-weight: 400;}
 
 .navbar-scrolled {
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0));
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0));
   transition: background 0.3s ease-in-out;
 }
 #names {
@@ -109,8 +110,13 @@ hr.divider {
   padding: 4rem 0;
 }
 
-.jumbotron {
-  background: none !important;
+.table {
+  padding: 1rem;
+}
+
+.todolist th, a {
+  color: white !important;
+  font-weight: 200;
 }
 
 .button {
@@ -123,4 +129,3 @@ hr.divider {
 
 .button:hover { background: #B0B87A !important; }
 .button:focus { box-shadow: 0 0 0 0.2rem #A1A960 !important; }
-.button:active { }
