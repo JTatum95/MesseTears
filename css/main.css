@@ -52,28 +52,34 @@ p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200;
 
 #photo1 {
   height: 100%;
-  background-image: url("../img/IMG_3594.webp");
+  background-image: url("../img/IMG_3594.jpg");
+  background-image: image("../img/UsbushlaughingHD.webp", "../img/UsbushlaughingHD.jpg");
   background-position: left !important;
 }
 #photo2 {
   height: 600px;
-  background-image: url("../img/UsbushlaughingHD.webp");
+  background-image: url("../img/UsbushlaughingHD.jpg");
+  background-image: image("../img/UsbushlaughingHD.webp", "../img/UsbushlaughingHD.jpg");
 }
 #photo3 {
   height: 600px;
-  background-image: url("../img/IMG_3495.webp");
+  background-image: url("../img/IMG_3495.jpg");
+  background-image: image("../img/IMG_3495.webp", "../img/IMG_3495.jpg");
 }
 #photo4 {
   height: 600px;
-  background-image: url("../img/UsArchwayHD.webp");
+  background-image: url("../img/UsArchwayHD.jpg");
+  background-image: image("../img/UsArchwayHD.webp", "../img/UsArchwayHD.jpg");
 }
 #photo5 {
   height: 600px;
-  background-image: url("../img/IMG_3515.webp");
+  background-image: url("../img/IMG_3515.jpg");
+  background-image: image("../img/IMG_3515.webp", "../img/IMG_3515.jpg");
 }
 #photo6 {
   height: 600px;
-  background-image: url("../img/UsBushHD.webp");
+  background-image: url("../img/UsBushHD.jpg");
+  background-image: image("../img/UsBushHD.webp", "../img/UsBushHD.jpg");
 }
 .photo {
   height: 100%;
@@ -122,6 +128,10 @@ hr.divider {
   font-weight: 200;
 }
 
+.todolist .todo_name {
+  width: 40%;
+}
+
 .button {
   border-radius: 5%;
   background: #C18C5D !important;
@@ -154,22 +164,22 @@ hr.divider {
   }
   #photo1 {
     height: 100%;
-    background-image: url("../img/mobile/IMG_3599.webp");
+    background-image: url("../img/mobile/IMG_3599.jpg");
   }
   #photo2 {
-    background-image: url("../img/mobile/UsbushlaughingHD.webp");
+    background-image: url("../img/mobile/UsbushlaughingHD.jpg");
   }
   #photo3 {
-    background-image: url("../img/mobile/IMG_3495.webp");
+    background-image: url("../img/mobile/IMG_3495.jpg");
   }
   #photo4 {
-    background-image: url("../img/mobile/UsArchwayHD.webp");
+    background-image: url("../img/mobile/UsArchwayHD.jpg");
   }
   #photo5 {
-    background-image: url("../img/mobile/IMG_3515.webp");
+    background-image: url("../img/mobile/IMG_3515.jpg");
   }
   #photo6 {
-    background-image: url("../img/mobile/UsBushHD.webp");
+    background-image: url("../img/mobile/UsBushHD.jpg");
   }
 
 }
