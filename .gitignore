@@ -6,3 +6,5 @@ node_modules
 package.json
 .idea
 js/submit.js
+.DS_Store
+../.DS_Store

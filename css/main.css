@@ -50,28 +50,28 @@ p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200;
 
 #photo1 {
   height: 800px;
-  background-image: url("../img/IMG_3594.jpg");
+  background-image: url("../img/IMG_3594.webp");
   background-position: left !important;
 }
 #photo2 {
   height: 600px;
-  background-image: url("../img/UsbushlaughingHD.jpg");
+  background-image: url("../img/UsbushlaughingHD.webp");
 }
 #photo3 {
   height: 600px;
-  background-image: url("../img/IMG_3495.jpg");
+  background-image: url("../img/IMG_3495.webp");
 }
 #photo4 {
   height: 600px;
-  background-image: url("../img/UsArchwayHD.jpg");
+  background-image: url("../img/UsArchwayHD.webp");
 }
 #photo5 {
   height: 600px;
-  background-image: url("../img/IMG_3515.jpg");
+  background-image: url("../img/IMG_3515.webp");
 }
 #photo6 {
   height: 600px;
-  background-image: url("../img/UsBushHD.jpg");
+  background-image: url("../img/UsBushHD.webp");
 }
 .photo {
   height: 100%;
