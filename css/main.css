@@ -49,7 +49,7 @@ p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200;
 #what, #todo { background-color: #c9cba3;}
 
 #photo1 {
-  height: 800px;
+  height: 100%;
   background-image: url("../img/IMG_3594.webp");
   background-position: left !important;
 }
@@ -150,4 +150,24 @@ hr.divider {
   #mainNav {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0));
   }
+  #photo1 {
+    height: 100%;
+    background-image: url("../img/mobile/IMG_3599.webp");
+  }
+  #photo2 {
+    background-image: url("../img/mobile/UsbushlaughingHD.webp");
+  }
+  #photo3 {
+    background-image: url("../img/mobile/IMG_3495.webp");
+  }
+  #photo4 {
+    background-image: url("../img/mobile/UsArchwayHD.webp");
+  }
+  #photo5 {
+    background-image: url("../img/mobile/IMG_3515.webp");
+  }
+  #photo6 {
+    background-image: url("../img/mobile/UsBushHD.webp");
+  }
+
 }
