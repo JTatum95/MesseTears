@@ -16,11 +16,12 @@
 body, html {
   color: white !important;
   font-family: 'Raleway', sans-serif !important;
+  height: 100%;
   width: 100%;
 }
 
 h1 { font-family: "Lobster", "Brush Script MT", sans-serif !important; }
-h2 { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 400; font-size: 1.5rem; !important; }
+h2 { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif !important; font-weight: 400; font-size: 1.5rem; }
 p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200; }
 .minimal { font-family: 'Raleway', serif; font-weight: 200; font-size: .8rem; }
 
@@ -39,7 +40,6 @@ p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200;
 #names {
   font-size: 3rem;
 }
-
 #main {
   padding-top: 75px;
 }
@@ -51,6 +51,7 @@ p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200;
 #photo1 {
   height: 800px;
   background-image: url("../img/IMG_3594.jpg");
+  background-position: left !important;
 }
 #photo2 {
   height: 600px;
@@ -129,3 +130,24 @@ hr.divider {
 
 .button:hover { background: #B0B87A !important; }
 .button:focus { box-shadow: 0 0 0 0.2rem #A1A960 !important; }
+
+@media (min-width: 992px) {
+  #mainNav {
+    box-shadow: none;
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 992px) {
+  .todolist .links { display: none; }
+  .todolist{ text-align: center !important; }
+  #mainNav ul {
+    text-align: right !important;
+  }
+  .nav-link {
+    padding-right: 0.5rem;
+  }
+  #mainNav {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0));
+  }
+}
