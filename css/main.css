@@ -52,34 +52,33 @@ p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200;
 
 #photo1 {
   height: 100%;
-  background-image: url("../img/IMG_3594.jpg");
-  background-image: image("../img/UsbushlaughingHD.webp", "../img/UsbushlaughingHD.jpg");
-  background-position: left !important;
+  background-image: url("../img/min/IMG_3594.jpg");
+  /*background-image: image("../img/min/UsbushlaughingHD.webp", "../img/min/UsbushlaughingHD.jpg");*/
 }
 #photo2 {
   height: 600px;
-  background-image: url("../img/UsbushlaughingHD.jpg");
-  background-image: image("../img/UsbushlaughingHD.webp", "../img/UsbushlaughingHD.jpg");
+  background-image: url("../img/min/UsbushlaughingHD.jpg");
+  /*background-image: image("../img/min/UsbushlaughingHD.webp", "../img/min/UsbushlaughingHD.jpg");*/
 }
 #photo3 {
   height: 600px;
-  background-image: url("../img/IMG_3495.jpg");
-  background-image: image("../img/IMG_3495.webp", "../img/IMG_3495.jpg");
+  background-image: url("../img/min/IMG_3495.jpg");
+  /*background-image: image("../img/min/IMG_3495.webp", "../img/min/IMG_3495.jpg");*/
 }
 #photo4 {
   height: 600px;
-  background-image: url("../img/UsArchwayHD.jpg");
-  background-image: image("../img/UsArchwayHD.webp", "../img/UsArchwayHD.jpg");
+  background-image: url("../img/min/UsArchwayHD.jpg");
+  /*background-image: image("../img/min/UsArchwayHD.webp", "../img/min/UsArchwayHD.jpg");*/
 }
 #photo5 {
   height: 600px;
-  background-image: url("../img/IMG_3515.jpg");
-  background-image: image("../img/IMG_3515.webp", "../img/IMG_3515.jpg");
+  background-image: url("../img/min/IMG_3515.jpg");
+  /*background-image: image("../img/min/IMG_3515.webp", "../img/min/IMG_3515.jpg");*/
 }
 #photo6 {
   height: 600px;
-  background-image: url("../img/UsBushHD.jpg");
-  background-image: image("../img/UsBushHD.webp", "../img/UsBushHD.jpg");
+  background-image: url("../img/min/UsBushHD.jpg");
+  /*background-image: image("../img/UsBushHD.webp", "../img/UsBushHD.jpg");*/
 }
 .photo {
   height: 100%;
@@ -164,22 +163,27 @@ hr.divider {
   }
   #photo1 {
     height: 100%;
-    background-image: url("../img/mobile/IMG_3599.jpg");
+    background-image: url("../img/mobile/min/IMG_3599.jpg");
   }
   #photo2 {
-    background-image: url("../img/mobile/UsbushlaughingHD.jpg");
+    height: 90%;
+    background-image: url("../img/mobile/min/UsbushlaughingHD.jpg");
   }
   #photo3 {
-    background-image: url("../img/mobile/IMG_3495.jpg");
+    height: 90%;
+    background-image: url("../img/mobile/min/IMG_3495.jpg");
   }
   #photo4 {
-    background-image: url("../img/mobile/UsArchwayHD.jpg");
+    height: 90%;
+    background-image: url("../img/mobile/min/UsArchwayHD.jpg");
   }
   #photo5 {
-    background-image: url("../img/mobile/IMG_3515.jpg");
+    height: 90%;
+    background-image: url("../img/mobile/min/IMG_3515.jpg");
   }
   #photo6 {
-    background-image: url("../img/mobile/UsBushHD.jpg");
+    height: 90%;
+    background-image: url("../img/mobile/min/UsBushHD.jpg");
   }
 
 }
