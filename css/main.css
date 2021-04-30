@@ -160,6 +160,7 @@ hr.divider {
   }
 }
 
+/* Triggered by phones */
 @media (max-width: 992px) {
   #mainNav ul {
     text-align: right !important;
@@ -210,4 +211,10 @@ hr.divider {
   .todolist{ text-align: center !important; }
   .todo_name a:hover { text-decoration: inherit; }
   .todo_name a { text-decoration: underline; cursor: inherit; }
+}
+/* iPad specific */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .photo {
+    background-attachment: unset !important;
+  }
 }
