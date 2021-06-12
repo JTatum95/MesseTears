@@ -46,8 +46,20 @@ p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200;
   padding-top: 75px;
 }
 
+#names{ padding-bottom: 1rem; }
+#covid-update-button {
+  /*background: rgba(0,0,0,0.6);*/
+  padding: 1rem 1rem;
+  margin-top: 4rem;
+  width: 25%;
+  border-radius: 1rem;
+  color: white !important;
+}
+#covid-update-button p { margin: 0 !important;}
+#covid-email {color:white !important;}
+
 #about, #registry { background-color: #C3797F; }
-#event, #rsvp { background: #7E678E; }
+#event, #rsvp { background-color: #7E678E; }
 #what, #todo { background-color: #C18C5D;}
 
 .no-webp #photo1 {
@@ -162,6 +174,9 @@ hr.divider {
 
 /* Triggered by phones */
 @media (max-width: 992px) {
+  #covid-update-button {
+    width: 75%;
+  }
   #mainNav ul {
     text-align: right !important;
   }
