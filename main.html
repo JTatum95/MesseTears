@@ -186,6 +186,8 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
+        <h3>RSVP is currently disabled!</h3>
+        <p>We will re-enable this form once we have sent out invites and confirmed our in-person guest list. Please wait to RSVP until you receive your in person invitation.</p>
         <p>Due to the Covid-19 virus, we are limiting our in person attendance.
           In order to accommodate all of the friends and family that we would like to attend but don't have space for,
           we will be offering a live stream of the ceremony.</p>
@@ -230,7 +232,8 @@
         </div>
       </div>
 
-      <button type="submit" class="btn button" id="rsvp_submit">Submit</button>
+      <button class="btn button disabled" id="rsvp_disabled" onclick="alert('RSVP is currently disabled. Please check again once you have received your in-person invite.');">Submit</button>
+<!--      <button type="submit" class="btn button disabled no-click" id="rsvp_submit">Submit</button>-->
     </form>
 
   </div>
