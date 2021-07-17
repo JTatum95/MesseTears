@@ -141,11 +141,11 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h2 class="mt-0">Covid-19 Updates</h2>
+        <h2 class="mt-0" id="covid-update">Covid-19 Updates</h2>
         <p>Due to the limited space available in our venue we will not be able to accommodate all guests
           in person. When we began our wedding planning process, there was little known as to where public health would be
-          in September. While the progress we have made in this country is a great blessing, we
-          are unable to change our venues or plans to increase numbers.</p>
+          in September. While the progress we have made in this country is a great blessing, we are still limited in the number
+        of guests that we are able to host.</p>
         <p>We will have a livestream available so that many more of our loved ones can participate online.
           Feel free to reach out to us any time at <a href="mailto:wedding@messetears.com" id="covid-email">wedding@messetears.com</a></p>
       </div>
@@ -164,8 +164,8 @@
       <h2 class="mt-0 ">Mailing Address</h2>
       <p class="mb-4">Please send all gifts to:
         <br>Micaela Sears or Jesse Tatum
-        <br>28W558 Hawthorne Lane
-        <br>West Chicago, IL. 60185
+        <br>889 S Lorraine Rd
+        <br>Wheaton, IL 60189
       </p>
 
     </div>
@@ -196,13 +196,12 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h3>RSVP is currently disabled!</h3>
-        <p>We will re-enable this form once we have sent out invites and confirmed our in-person guest list. Please wait to RSVP until you receive your in person invitation.</p>
         <p>Due to the Covid-19 virus, we are limiting our in person attendance.
-          In order to accommodate all of the friends and family that we would like to attend but don't have space for,
+          In order to accommodate all of the friends and family that we would like to share this time with us but don't have space for in person,
           we will be offering a live stream of the ceremony.</p>
         <p>If you will be attending in person, please feel free to RSVP here.</p>
-        <p class="minimal">*There is no need to RSVP for the virtual attendance</p>
+        <p>If you will be attending virtually, please return to this website on September 4th at 1pm.</p>
+        <p class="minimal">*There is no need to RSVP for the virtual attendance.</p>
       </div>
     </div>
 
@@ -235,15 +234,17 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-6 form-check">
+        <div class="col-12 form-check">
           <input type="checkbox" class="form-check-input" id="check">
           <label class="form-check-label" for="check" >I will be attending in person.</label>
-          <p class="minimal">*RSVP is only needed for in person attendance</p>
+        </div>
+        <div class="col-12 form-check" id="final_check">
+          <input type="checkbox" class="form-check-input" id="information">
+          <label class="form-check-label" for="information">I would like information to attend virtually.</label>
         </div>
       </div>
 
-      <button class="btn button disabled" id="rsvp_disabled" onclick="alert('RSVP is currently disabled. Please check again once you have received your in-person invite.');">Submit</button>
-      <!--      <button type="submit" class="btn button disabled no-click" id="rsvp_submit">Submit</button>-->
+            <button type="submit" class="btn button" id="rsvp_submit">Submit</button>
     </form>
 
   </div>
