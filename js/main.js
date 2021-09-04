@@ -35,3 +35,7 @@ var navbarCollapse = function() {
 navbarCollapse();
 // Collapse the navbar when page is scrolled
 $(window).scroll(navbarCollapse);
+
+$(window).on('load', function (){
+    $('#livestream').modal('show');
+})
