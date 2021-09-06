@@ -22,6 +22,7 @@ body, html {
 
 h1 { font-family: "Lobster", "Brush Script MT", sans-serif !important; }
 h2 { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif !important; font-weight: 400; font-size: 1.5rem; }
+h3 { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif !important; font-weight: 400; font-size: 1.25rem; }
 p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200; }
 .minimal { font-family: 'Raleway', serif; font-weight: 200; font-size: .8rem; }
 
@@ -42,6 +43,11 @@ p { font-family: 'Raleway', "Garamond", "Trebuchet MS", serif; font-weight: 200;
 #names {
   font-size: 3rem;
 }
+
+#thanks {
+  padding-top: 2rem;
+}
+
 #main {
   padding-top: 75px;
 }
